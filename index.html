@@ -14,19 +14,36 @@
           <h2 class="slogan">"Delivered before you even know you want it"<h2>
         </header>
 
+        <div id="login">
+            <fieldset>
+                <label for="user">
+                    User
+                    <input type="text" name="user" placeholder="user"></input>
+                </label><br>
+                <label>
+                    Password
+                    <input type="text" name="password" placeholder="password"></input>
+                </label>
+            </fieldset>
+        </div>
+
         <form method="get">
 
-            <table>
+            <table class="table">
 
                 <thead>
-                    Create Your Pizza:
+                    <th>
+                        Create Your Pizza:
+                    </th>
                 </thead>
 
                 <tr>
                     <td>
                         <table>
                             <thead>
-                                What Size?
+                                <th>
+                                    What Size?
+                                </th>
                             </thead>
                             <tr>
                                 <td>
@@ -40,7 +57,9 @@
                     <td>
                         <table>
                             <thead>
-                                What Sauce?
+                                <th>
+                                    What Sauce?
+                                </th>
                             </thead>
                             <tr>
                                 <td>
@@ -57,7 +76,9 @@
                     <td>
                         <table>
                             <thead>
-                                Meat?
+                                <th>
+                                    Meat?
+                                </th>
                             </thead>
                             <tr>
                                 <td>
@@ -74,7 +95,9 @@
                     <td>
                         <table>
                             <thead>
-                                Other Stuff
+                                <th>
+                                    Other Stuff
+                                </th>
                             </thead>
                             <tr>
                                 <td>
@@ -92,7 +115,9 @@
                     <td>
                         <table>
                             <thead>
-                                Extras
+                                <th>
+                                    Extras
+                                </th>
                             </thead>
                             <tr>
                                 <td>
@@ -104,6 +129,60 @@
                     </td>
                 </tr>
 
+            </table>
+
+            <table class="table">
+                <thead>
+                    <th>How Will You Get Your Pizza?</th>
+                </thead>
+                <tr>
+                    <td>
+                        <label>
+                            Pickup
+                            <input type="radio" name="delivery"></input>
+                        </label><br>
+                        <label>
+                            Delivery
+                            <input type="radio" name="delivery" checked></input>
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            Name
+                            <input type="text" name="name" placeholder="John Doe"></input>
+                        </label><br>
+                        <label>
+                            Phone
+                            <input type="text" name="phone" placeholder="123-456-7890"></input>
+                        </label><br>
+                        <label>
+                            Email
+                            <input type="text" name="email" placeholder="jdoe@google.com"></input>
+                        </label><br>
+                    </td>
+                    <td>
+                        <label>
+                            Street 1
+                            <input type="text" name="street1" placeholder="123 Any St."></input>
+                        </label><br>
+                        <label>
+                            Street 2
+                            <input type="text" name="street2" placeholder="Unit 69"></input>
+                        </label><br>
+                        <label>
+                            City
+                            <input type="text" name="city" placeholder="Denver"></input>
+                        </label><br>
+                        <label>
+                            State
+                            <input type="text" name="state" placeholder="CO"></input>
+                        </label>
+                        <label>
+                            Zipcode
+                            <input type="text" name="zip" placeholder="80000"></input>
+                        </label>
+                    </td>
+                </tr>
             </table>
 
             <button type="submit" name="button">ORDER PIZZA</button>

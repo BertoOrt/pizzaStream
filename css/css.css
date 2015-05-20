@@ -11,11 +11,11 @@ header {
   font-family: cursive;
   background-color: #803300;
   background-image: url(../img/pizza_universe.jpg);
-  width: 200%;
+  width: 300%;
   height: 150%;
-  padding: 0 100px;
+  padding: 0 150px;
   position: relative;
-  right: 200px;
+  right: 250px;
   margin-bottom: 20px;
   border-bottom: groove #3D007A 10px;
 }
@@ -36,12 +36,43 @@ header {
   text-shadow: -1px 0 #D699FF, 0 2px #D699FF, 2px 0 #D699FF, 0 -1px #D699FF;
 }
 
-table {
-  background-color: white;
+.table {
+  background-color: #FFE0FF;
+  font-family: verdana, sans-serif;
+  font-size: 125%;
+  border-top: groove #3D007A 10px;
+  border-left:  groove #3D007A 10px;
+  border-bottom:  groove #3D007A 10px;
+  border-right:  groove #3D007A 10px;
+  border-spacing: 0;
+  width: 100%;
+  height: auto;
 }
 
-thead .size {
-  font-size: 150%;
-  font-style: bold;
+th {
+  font-size: 175%;
+  font-weight: bold;
   color: #3D007A;
+  background-color: #FFB2FF;
+}
+
+button {
+  width: 700px;
+  height: 300px;
+  font-family: sans-serif;
+  background-color: red;
+  font-weight: bold;
+  font-size: 500%;
+  border-top: groove #3D007A 10px;
+  border-left:  groove #3D007A 10px;
+  border-bottom:  groove #3D007A 10px;
+  border-right:  groove #3D007A 10px;
+  margin-left: 150px;
+}
+
+#login {
+  position: absolute;
+  right: 50px;
+  top: 30px;
+  background-color: #FFE0FF;
 }

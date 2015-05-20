@@ -1,6 +1,8 @@
 body {
   font-family: sans-serif;
   background-color: #FFF0B2;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
   margin:0 auto;
   width: 1000px;
 }
@@ -8,26 +10,38 @@ body {
 header {
   font-family: cursive;
   background-color: #803300;
+  background-image: url(../img/pizza_universe.jpg);
   width: 200%;
   height: 150%;
-  padding: 0 200px;
+  padding: 0 100px;
   position: relative;
-  right: 400px;
+  right: 200px;
   margin-bottom: 20px;
+  border-bottom: groove #3D007A 10px;
 }
 
 .title {
   margin: auto;
   padding: 0 10px;
   font-size: 300%;
-  color: white;
-  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+  color: #3D007A;
+  text-shadow: -1px 0 #D699FF, 0 2px #D699FF, 2px 0 #D699FF, 0 -1px #D699FF;
 }
 
 .slogan {
   margin: auto;
   padding: 0 100px;
-  font-size: 90%;
-  color: white;
-  text-shadow: -1px 0 #FF6600, 0 2px #FF6600, 2px 0 #FF6600, 0 -1px #FF6600;
+  font-size: 110%;
+  color: #3D007A;
+  text-shadow: -1px 0 #D699FF, 0 2px #D699FF, 2px 0 #D699FF, 0 -1px #D699FF;
+}
+
+table {
+  background-color: white;
+}
+
+thead .size {
+  font-size: 150%;
+  font-style: bold;
+  color: #3D007A;
 }
